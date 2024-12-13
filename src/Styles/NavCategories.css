@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+.navbarC {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-items {
+    font-family: "Arima", system-ui;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-items p {
+    margin: 0;
+    user-select: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-items p:hover {
+    color: white;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    
+}
+

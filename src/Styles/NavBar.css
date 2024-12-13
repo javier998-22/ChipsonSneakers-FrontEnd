@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+.navbar {
+    font-family: "Arima", system-ui;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    user-select: none;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.categories-text {
+    font-size: 14px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.navbar-search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.search-bar {
+    font-family: "Arima", system-ui;
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    user-select: none;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    font-family: "Arima", system-ui;
+    margin-right: 20px;
+    padding: 3px 15px;
+    font-size: 14px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.su-btn {
+    font-family: "Arima", system-ui;
+    margin-right: 20px;
+    padding: 3px 15px;
+    font-size: 14px;
+    background-color: #262626;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.login-btn:hover {
+    background-color: #262626;
+    color:#fff
+}
+
+.su-btn:hover {
+    background-color: black;
+}
+.cart-cont {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cart{
+    margin-top: 29%;
+    user-select: none;
+}

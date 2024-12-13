@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(74, 28, 199, 0.1);
+}
+
+.container {
+    margin-top: 80%;
+    font-family: "Arima", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px black;
+    background-color: #fafafa;
+}
+
+.login-form {
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+input {
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    margin: 10px 0;
+    padding: 10px;
+    width: 310px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 20px 5px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e963e;
+    color: white;
+    cursor: pointer;
+    font-family: "Arima", system-ui;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p{
+    margin:5px;
+}
