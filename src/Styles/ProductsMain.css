@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+.Card1{
+    max-width: 1700px;
+    margin: 2% auto;
+}
+
+@media (max-width: 1600px){
+    .Card1{
+        max-width: 1640px;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+}
+
+@media (max-width: 1550px){
+    .Card1{
+        max-width: 1630px;
+        margin-left: 9%;
+        margin-right: 9%;
+    } 
+}
+
+@media (max-width: 1480px){
+    .Card1{
+        max-width: 1610px;
+        margin-left: 8%;
+        margin-right: 8%;
+    } 
+}
+
+.titleR{
+    font-family: "Arima", system-ui;
+    font-size: 20px;
+    user-select: none;
+}
+.product-card {
+    user-select: none;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contenedor de la imagen */
+.product-image-container {
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Botón favorito */
+.favorite-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.2s;
+}
+
+.favorite-button:hover {
+    color: #e63946;
+}
+
+/* Detalles del producto */
+.product-details {
+    padding: 10px;
+}
+
+.product-title {
+    font-family: "Arima", system-ui;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.4;
+    margin: 0 0 5px 0;
+}
+
+.lowest-ask {
+    font-size: 12px;
+    color: #777;
+    margin: 0;
+    font-family: "Arima", system-ui;
+}
+
+.product-price {
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0;
+}

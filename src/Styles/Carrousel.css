@@ -10,7 +10,9 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
+    user-select: none;
 }
+
 
 
 .carousel-image-container {
@@ -22,6 +24,31 @@
     justify-content: center;
     background-color: #eaeaea;
 }
+
+@media (max-width: 1480px){
+    .carousel{
+        max-width: 1600px;
+        margin-left: 8%;
+        margin-right: 8%;
+    } 
+}
+
+@media (max-width: 1550px){
+    .carousel{
+        max-width: 1630px;
+        margin-left: 9%;
+        margin-right: 9%;
+    } 
+}
+
+@media (max-width: 1600px){
+    .carousel{
+        max-width: 1620px;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+}
+
 
 .carousel-image {
     width: 100%;

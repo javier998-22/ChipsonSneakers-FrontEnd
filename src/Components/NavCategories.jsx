@@ -1,6 +1,4 @@
 import './../Styles/NavCategories.css';
-import { BsCart3 } from "react-icons/bs";
-import Logo from "../logo.jpeg";
 export const NavCategories = () => {
     return (
         <nav className="navbarC">
