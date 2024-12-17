@@ -18,7 +18,7 @@
 .carousel-image-container {
     position: relative;
     width: 110%;
-    height: 200px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
