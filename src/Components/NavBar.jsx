@@ -1,7 +1,22 @@
-import './../Styles/NavBar.css';
 import { BsCart3 } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
+
+import './../Styles/NavBar.css';
 import Logo from "../logo.jpeg";
+
 export const NavBar = () => {
+
+    const navigate = useNavigate();
+
+    const irAsignup = () => {
+        navigate('/signup'); 
+    }; 
+    
+    const irAlogin = () => {
+        navigate('/login'); 
+    }; 
+    
+
     return (
         <nav className="navbar">
             <div className="navbar-logo">
@@ -16,8 +31,8 @@ export const NavBar = () => {
                 />
             </div>
             <div className="navbar-right">
-                <button className="login-btn">Iniciar Sesión</button>
-                <button className="su-btn">Crear Cuenta</button>
+                <button className="login-btn" onClick={irAlogin} >Iniciar Sesión</button>
+                <button className="su-btn" onClick={irAsignup} >Crear Cuenta</button>
                 <div className="cart-cont">
                     <BsCart3 className="cart" />
                 </div>

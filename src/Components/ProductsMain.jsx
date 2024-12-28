@@ -1,12 +1,22 @@
 import './../Styles/ProductsMain.css';
 
+import { useNavigate } from 'react-router-dom';
+
 export const ProductsMain = () => {
+
+    const navigate = useNavigate();
+
+    const irAproduct = () => {
+        navigate('/product'); 
+    }; 
+    
+
     return(
-    <div className="Card1">
+    <div className="Card1" >
         <h1 className='titleR'>Recomendadas para ti</h1>
-        <div className="product-card">
+        <div className="product-card" onClick={irAproduct}>
             {/* Imagen del producto */}
-            <div className="product-image-container">
+            <div className="product-image-container" >
                 <img
                     src="https://via.placeholder.com/150x100" 
                     alt="Jordan Jumpman Jack TR"
