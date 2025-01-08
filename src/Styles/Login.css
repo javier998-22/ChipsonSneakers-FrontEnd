@@ -1,55 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap");
 
-.container {
-    height: 100vh;
-    margin-top: 80%;
-    font-family: "Arima", system-ui;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 7px;
-    box-shadow: 5px 5px 5px black;
-    background-color: #fafafa;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
 
 .login-form {
-    box-shadow: 10px 5px 5px black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 300px;
 }
 
-input {
-    font-family: "Arima", system-ui;
-    font-optical-sizing: auto;
-    margin: 10px 0;
-    padding: 10px;
-    width: 310px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
 }
 
-button {
-    margin: 20px 5px;
-    padding: 10px;
-    width: 150px;
-    border: none;
-    border-radius: 5px;
-    background-color: #3e963e;
-    color: white;
-    cursor: pointer;
-    font-family: "Arima", system-ui;
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  margin-left: -3%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-button:hover {
-    background-color: #0056b3;
+.divB {
+  margin-top: 10px;
 }
 
-p{
-    margin:5px;
+.login-form p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.iniciar-btn {
+  width: 70%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.close-btn {
+  background-color: #991313;
+  margin-top: 3%;
+  width: 70%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
